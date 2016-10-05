@@ -185,3 +185,30 @@ ul.list {
 ul.list li {
   margin-bottom: 15px;
 }
+
+#about {
+  font-size: 150%;
+}
+
+div.progress, div.progress-bar {
+  font-size: 120%;
+}
+
+div.progress {
+  height: 40px;
+}
+
+div.progress span {
+  display: inline-block;
+  padding-top: 8px;
+}
+
+div.progress-bar, .progress-bar.active {
+  padding-top: 10px !important;
+}
+
+#fotka {
+  margin-top: 1%;
+  border: 2px solid #e3b24b;
+  border-radius: 25px;
+}
