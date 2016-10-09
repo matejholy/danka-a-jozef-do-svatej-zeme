@@ -46,20 +46,25 @@ p {
     padding-bottom: 5%;
 }
 
-.intro-message > h1 {
+.intro-message-headers {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.intro-message h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.7);
     font-size: 5em;
 }
 
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.7);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+.intro-message h3 {
+    text-shadow: 5px 5px 3px rgba(0,0,0,0.7);
 }
 
 @media(max-width:767px) {
@@ -180,10 +185,13 @@ div.progress-bar {
 
 ul.list {
   font-size: 150%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
 }
 
 ul.list li {
   margin-bottom: 15px;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.8);
 }
 
 #about {
@@ -209,6 +217,7 @@ div.progress-bar, .progress-bar.active {
 
 #fotka {
   margin-top: 1%;
-  border: 2px solid #e3b24b;
+  border: 2px solid #ddd;
   border-radius: 25px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.8);
 }
